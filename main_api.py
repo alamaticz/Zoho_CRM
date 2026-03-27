@@ -128,8 +128,8 @@ TEXT_FOLDER_ID = get_env_var("GOOGLE_DRIVE_TEXT_FOLDER_ID")
 # ============================================================
 def get_drive_service():
     scopes = ['https://www.googleapis.com/auth/drive.file']
-    client_id = get_env_var("client_id")
-    client_secret = get_env_var("client_secret")
+    client_id = get_env_var("GOOGLE_CLIENT_ID")
+    client_secret = get_env_var("GOOGLE_CLIENT_SECRET")
     refresh_token = get_env_var("GOOGLE_REFRESH_TOKEN")
     
     if not all([client_id, client_secret, refresh_token]): return None
