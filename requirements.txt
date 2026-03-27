@@ -1,0 +1,17 @@
+watchdog
+openpyxl
+pdfplumber
+python-docx
+SpeechRecognition
+pydub
+requests
+pandas
+xlrd
+eml_parser
+extract-msg
+google-generativeai
+# Audio transcription dependencies
+openai-whisper
+noisereduce
+numpy
+soundfile
